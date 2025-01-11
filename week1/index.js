@@ -30,7 +30,7 @@ const alexSportbudget = 3000;
 // 條件二：瑜伽團課只能一次買 3 堂
 // 條件三：一定要花到 2400 以上，並購買 5 堂課程
 
-AlexBudget = alexSportbudget - (yogaClass * 3 + workoutClass + personalTraining);
+let AlexBudget = alexSportbudget - (yogaClass * 3 + workoutClass + personalTraining);
 console.log(`Alex 買完課程了，他一共剩下 ${AlexBudget} 元`);
 
 // ### 題目四：線稿圖截圖，看圖宣告變數
