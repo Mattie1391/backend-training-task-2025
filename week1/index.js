@@ -123,7 +123,7 @@ let h = f + g; // h 是 number 因為false = 0
 
 let numberArr1 = [5, 10, 15]; // 宣告numberArr1為一個陣列，陣列有三個元素為5,10,15
 let numberArr2 = numberArr1; //宣告numberArr2等於numberArr1
-numberArr2.push(20); //把20放進numberArr2這個陣列中的最後一個元素
+numberArr2.push(20); //把20放進numberArr2這個陣列中的最後一個元素,同時因為numberArr2 = numberArr1的關係, numberArr1也會增加20在最後面
 //.push() 方法會將一個或多個元素依序新增到陣列的尾端，並且回傳新的陣列長度
 numberArr2 = [25, 30, 35]; //改變numberArr2內的元素為25,30,35
 console.log(numberArr1, numberArr2); //印出numberArr1與numberArr2
